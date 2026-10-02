@@ -1,0 +1,38 @@
+* text=auto eol=lf
+
+# Enfusion text resources
+*.c        text diff=cpp
+*.et       text
+*.conf     text
+*.gproj    text
+*.meta     text
+*.layer    text
+*.ent      text
+*.emat     text
+
+# Binary assets tracked with Git LFS
+*.blend    filter=lfs diff=lfs merge=lfs -text
+*.fbx      filter=lfs diff=lfs merge=lfs -text
+*.FBX      filter=lfs diff=lfs merge=lfs -text
+*.xob      filter=lfs diff=lfs merge=lfs -text
+*.edds     filter=lfs diff=lfs merge=lfs -text
+*.dds      filter=lfs diff=lfs merge=lfs -text
+*.tif      filter=lfs diff=lfs merge=lfs -text
+*.tiff     filter=lfs diff=lfs merge=lfs -text
+*.tga      filter=lfs diff=lfs merge=lfs -text
+*.png      filter=lfs diff=lfs merge=lfs -text
+*.jpg      filter=lfs diff=lfs merge=lfs -text
+*.jpeg     filter=lfs diff=lfs merge=lfs -text
+*.psd      filter=lfs diff=lfs merge=lfs -text
+*.exr      filter=lfs diff=lfs merge=lfs -text
+*.hdr      filter=lfs diff=lfs merge=lfs -text
+*.spp      filter=lfs diff=lfs merge=lfs -text
+*.sbsar    filter=lfs diff=lfs merge=lfs -text
+*.wav      filter=lfs diff=lfs merge=lfs -text
+*.ogg      filter=lfs diff=lfs merge=lfs -text
+*.anm      filter=lfs diff=lfs merge=lfs -text
+*.pak      filter=lfs diff=lfs merge=lfs -text
+*.bterr    filter=lfs diff=lfs merge=lfs -text
+*.ttile    filter=lfs diff=lfs merge=lfs -text
+*.terr     filter=lfs diff=lfs merge=lfs -text
+*.smap     filter=lfs diff=lfs merge=lfs -text

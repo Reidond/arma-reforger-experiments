@@ -1,0 +1,33 @@
+# Fetched reference material (regenerate with tools/sync_docs.py)
+/docs/vendor/
+
+# Workbench / Enfusion generated output
+*.rdb
+/out/
+/output/
+ud
+lst
+
+# Blender backups and autosaves
+*.blend[0-9]
+*.blend[0-9][0-9]
+*.blend@
+
+# Substance / Photoshop temp files
+*.spp.bak
+*.psb.tmp
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Claude Code local overrides
+.claude/settings.local.json
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
