@@ -31,5 +31,7 @@ Entry template:
   - `mcp-for-blender` is pinned (it runs arbitrary Python inside Blender); bump the version in `.mcp.json` deliberately.
   - Addon layout and `addon.gproj` format follow the user's `Reidond/stavka` repo; Blender sources kept outside addons so they are never packed.
 - **Verified:** `sync_docs.py` clean run and re-run (update path); `new_mod.py` creates a valid-looking `addon.gproj` and rejects bad names, duplicate addons, and bad GUIDs; `uvx mcp-for-blender@2.1.3 --help` runs; `claude mcp get blender` shows the server as a pending project server.
-- **Not verified:** Blender is not installed on this Mac, so the MCP connection to Blender is untested. No addon has been opened in Workbench yet.
-- **Next:** Install Blender + addon (`uvx mcp-for-blender@2.1.3 install-addon`), approve the `blender` server in Claude Code, create the first experiment addon, decide on a remote (GitHub) for the repo.
+  Blender 5.2.2 add-on installed (`install-addon`) and connected on port 9876; a raw socket `get_scene_info` call returned the default scene (Cube, Light, Camera).
+  After a Claude Code restart, the `blender` MCP tools work end to end: `get_addon_status` (addon 1.8, protocol 13, up to date, telemetry off), `get_scene_info`, `get_viewport_screenshot`.
+- **Not verified:** No addon has been opened in Workbench yet.
+- **Next:** Create the first experiment addon, decide on a remote (GitHub) for the repo.
