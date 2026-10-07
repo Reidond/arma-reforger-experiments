@@ -1,5 +1,6 @@
-# Fetched reference material (regenerate with tools/sync_docs.py)
-/docs/vendor/
+# Fetched reference material (regenerate with tools/sync_docs.py); no trailing slash so a
+# symlink to a shared checkout (git worktrees) is ignored too
+/docs/vendor
 
 # Workbench / Enfusion generated output
 *.rdb
@@ -31,3 +32,21 @@ Thumbs.db
 desktop.ini
 .idea/
 .vscode/
+
+# Regenerable art build outputs (scripts in art/<AddonID>/scripts rebuild them)
+/art/*/build/
+/art/*/textures/preview/
+
+# Third-party product photos used only as modelling reference
+/art/*/reference/
+/art/*/textures/source/refcrops/
+# Renders and charts that contain or are derived from the third-party product photos
+/art/*/renders/compare_*.png
+/art/*/renders/overlay_*.png
+/art/*/renders/chart_*.png
+/art/*/renders/_render_*.png
+/art/*/renders/unwrap_*.png
+/art/*/renders/aligned_*.png
+# Photo-derived fabric quilts (regenerate with fabric_synth.py from the reference photos)
+/art/*/textures/source/fabric_camo.png
+/art/*/textures/source/fabric_stretch.png

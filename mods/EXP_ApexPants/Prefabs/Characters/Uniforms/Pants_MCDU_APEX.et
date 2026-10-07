@@ -1,0 +1,31 @@
+GameEntity : "{DCF980831E880F6A}Prefabs/Characters/Uniforms/Pants_M88.et" {
+ ID "5BFAAE85E8F3C725"
+ components {
+  MeshObject "{5104869D194C6262}" {
+   Object "{A8D1B46D3F06A607}Assets/Characters/Uniforms/Pants_MCDU_APEX/Pants_MCDU_APEX_item.xob"
+   Materials {
+    MaterialAssignClass "{0491EB9C62C2A6E9}" {
+     SourceMaterial "Pants_MCDU_APEX"
+     AssignedMaterial "{EC98A1EF5B15F6EC}Assets/Characters/Uniforms/Pants_MCDU_APEX/Data/Pants_MCDU_APEX.emat"
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB01D5B9A306}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB01245CDF32}" {
+    ItemDisplayName UIInfo "{084DC994F2291D0E}" {
+     Name "MCDU APEX Pants (Multicam)"
+     Description "Combat trousers in Multicam ripstop with stretch inserts, 500D knee reinforcement, cargo and zip pockets."
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{555292467DA11B7C}" {
+      PreviewModel "{11EB171F8C8D6175}Prefabs/Characters/Uniforms/Pants_MCDU_APEX_Wear.et"
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   WornModel "{11EB171F8C8D6175}Prefabs/Characters/Uniforms/Pants_MCDU_APEX_Wear.et"
+   ItemModel "{EC46F4D24DBFB888}Prefabs/Characters/Uniforms/Pants_MCDU_APEX_Item.et"
+  }
+ }
+}

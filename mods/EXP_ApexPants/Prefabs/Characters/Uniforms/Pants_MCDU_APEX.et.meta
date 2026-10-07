@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{44201A94191F5B27}Prefabs/Characters/Uniforms/Pants_MCDU_APEX.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

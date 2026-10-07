@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{92FB95F4BD2BB523}Assets/Characters/Uniforms/Pants_MCDU_APEX/Data/Pants_MCDU_APEX_BCR.edds"
+ NMOMap "{92C0B51CC3D8E5F9}Assets/Characters/Uniforms/Pants_MCDU_APEX/Data/Pants_MCDU_APEX_NMO.edds"
+}
