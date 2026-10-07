@@ -1,0 +1,8 @@
+GameProject {
+ ID "EXP_ApexPants"
+ GUID "C4A331D81B532878"
+ TITLE "Experiments: MCDU APEX Pants (Multicam)"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+}

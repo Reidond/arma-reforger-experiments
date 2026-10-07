@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{EC98A1EF5B15F6EC}Assets/Characters/Uniforms/Pants_MCDU_APEX/Data/Pants_MCDU_APEX.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,8 @@
+GenericEntity {
+ ID "DCDF5456F7B127FB"
+ components {
+  MeshObject "{CEE83BCD88E31257}" {
+   Object "{A8D1B46D3F06A607}Assets/Characters/Uniforms/Pants_MCDU_APEX/Pants_MCDU_APEX_item.xob"
+  }
+ }
+}
